@@ -1,0 +1,361 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_materials_clearcoat"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Object_4"
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "skeleton2.obj.cleaner.materialmerger.gles"
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "Sketchfab_model",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "extensions" : {
+                "KHR_materials_clearcoat" : {
+                    "clearcoatFactor" : 0.6909090876579285,
+                    "clearcoatRoughnessFactor" : 0.029999999329447746
+                }
+            },
+            "name" : "SkeletonLimb",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "roughnessFactor" : 0
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "SkeletonBody",
+            "normalTexture" : {
+                "index" : 2
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 3
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "SkeletonSkull",
+            "normalTexture" : {
+                "index" : 4
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 5
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Object_2",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        },
+        {
+            "sampler" : 0,
+            "source" : 4
+        },
+        {
+            "sampler" : 0,
+            "source" : 5
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "SkeletonLimb_normal",
+            "uri" : "SkeletonLimb_normal.png"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "SkeletonLimb_baseColor",
+            "uri" : "SkeletonLimb_baseColor.jpg"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "SkeletonBody_normal",
+            "uri" : "SkeletonBody_normal.png"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "SkeletonBody_baseColor",
+            "uri" : "SkeletonBody_baseColor.jpg"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "SkeletonSkull_normal",
+            "uri" : "SkeletonSkull_normal.png"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "SkeletonSkull_baseColor",
+            "uri" : "SkeletonSkull_baseColor.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 4932,
+            "max" : [
+                4.273387908935547,
+                2.4512441158294678,
+                1.1557530164718628
+            ],
+            "min" : [
+                0.01869099959731102,
+                -1.7866590023040771,
+                -0.10099799931049347
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 4932,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 4932,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 22764,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 8905,
+            "max" : [
+                4.386713981628418,
+                2.2534289360046387,
+                1.4415160417556763
+            ],
+            "min" : [
+                1.6834830045700073,
+                0.21119099855422974,
+                0.3228920102119446
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 8905,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 8905,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 39336,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 5484,
+            "max" : [
+                4.912416934967041,
+                2.6593189239501953,
+                1.3861769437789917
+            ],
+            "min" : [
+                4.075061798095703,
+                1.9054160118103027,
+                0.46501800417900085
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 5484,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 5484,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 26880,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 59184,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 59184,
+            "byteOffset" : 59184
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 39456,
+            "byteOffset" : 118368
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 45528,
+            "byteOffset" : 157824
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 106860,
+            "byteOffset" : 203352
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 106860,
+            "byteOffset" : 310212
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 71240,
+            "byteOffset" : 417072
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 78672,
+            "byteOffset" : 488312
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 65808,
+            "byteOffset" : 566984
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 65808,
+            "byteOffset" : 632792
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 43872,
+            "byteOffset" : 698600
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 53760,
+            "byteOffset" : 742472
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 796232,
+            "uri" : "wesos.bin"
+        }
+    ]
+}
